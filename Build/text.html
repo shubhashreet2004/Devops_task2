@@ -3,44 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Simple Homepage</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-            background-color: #f4f4f4;
-        }
-        header {
-            background: #333;
-            color: white;
-            padding: 20px;
-            font-size: 24px;
-        }
-        section {
-            padding: 50px;
-        }
-        footer {
-            background: #333;
-            color: white;
-            padding: 10px;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <title>Static Web Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        Welcome to My Homepage
+        <h1>Welcome to My Static Web Page</h1>
     </header>
+    
     <section>
-        <h2>About Me</h2>
-        <p>This is a simple homepage built with HTML and CSS.</p>
+        <p>This is a simple static webpage using HTML and CSS.</p>
+        <a href="#about" class="btn">Learn More</a>
     </section>
+
+    <section id="about">
+        <h2>About This Page</h2>
+        <p>This webpage is fast, simple, and requires no backend or database.</p>
+    </section>
+
     <footer>
-        &copy; 2025 My Simple Homepage
+        <p>© 2025 My Website. All rights reserved.</p>
     </footer>
 </body>
 </html>
